@@ -1,6 +1,5 @@
 <script>
-  import Supabase from "./supa";
-  import LoginForm from "../lib/components/loginForm.svelte";
+  import LoginForm from "$lib/components/loginForm.svelte";
 </script>
 
 <div class="container">
