@@ -1,5 +1,5 @@
 <script>
-  import supabase from "../../routes/supa";
+  import { supabase } from "$lib/external/supa";
   import { goto } from "$app/navigation";
 
   let email = "";
